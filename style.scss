@@ -121,3 +121,65 @@ hr {
     font-weight: 400;
     font-size: 30px;
 }
+
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 20% 6% 20%;
+    align-items: center;
+}
+
+.gallery__header {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: $text-color;
+    text-align: center;
+}
+
+.gallery__nav__items{
+    @extend .menu__items;
+    margin: 0 10%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.gallery__nav__item {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.gallery__images {
+    display: grid;
+    grid-template: 416px 416px 416px/ 416px 416px 416px;
+    justify-content: center;
+    column-gap: 0.8%;
+    row-gap: 1%;
+    padding-bottom: 5%;
+}
+
+.gallery__images__item {
+    width: 416px;
+    height: 416px;
+    object-fit:cover;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 25%;
+    color: $text-color;
+}
+
+.footer__item_info-header{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 8%;
+}
+
+.footer__item_info {
+    display: flex;
+    flex-direction: column;
+    line-height: 32px;
+}
