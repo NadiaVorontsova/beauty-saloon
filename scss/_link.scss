@@ -1,0 +1,10 @@
+$text-color: #ffffff;
+.link {
+    color: $text-color;
+    font-style: normal;
+    text-decoration: none;
+    &:hover {
+        color: $text-highlight;
+        text-decoration: underline;
+    }
+}

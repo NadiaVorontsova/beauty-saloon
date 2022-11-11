@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 4% 10%;
+    color: $text-color;
+}
+
+.footer__item_info-header {
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 8%;
+}
+
+.footer__item_info {
+    display: flex;
+    flex-direction: column;
+    line-height: 32px;
+    font-size: 18px;
+}
